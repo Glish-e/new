@@ -1,0 +1,280 @@
+@font-face {
+    font-family: myfont;
+    src: url(space.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(undertaille.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: font2;
+}
+* body {
+    background: radial-gradient( circle farthest-corner at 50% 52.5%,  rgba(14,53,92,1) 0%, rgba(16,14,72,1) 90% );
+}
+* section {
+    height: calc(99vh + 0.2rem) !important;
+}
+html {
+    font-size: 16px;
+}
+:root {
+--color: white;
+}
+header {
+    height: 8.4vh;
+    width: 100%;
+    min-width: calc(max-content + 5px);
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header span{
+    font-size: xx-large;
+    position: relative;
+    top: auto;
+    left: -7%;
+    color: var(--color);
+}
+header li{
+    width: 40vw;
+    min-width: calc(max-content + 3vh);
+    height: 90%;
+    background: rgb(6, 16, 48);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ol{
+    list-style-type: none;
+    color: var(--color);
+    font: larger;
+    gap: 0.7rem;
+    padding: 1.1rem 1.5rem;
+    transition: 0.3s ease;
+}
+header ol:hover{
+    background: rgba(255, 255, 255, 0.233);
+    transform: scale(1.3);
+    border-radius: 1rem;
+    box-shadow: 0 0 2rem;
+}
+
+/* section hero */
+#hero {
+    width: 100%;
+    height: 55vh;
+
+}
+
+#hero h1{
+    font-size: 280%;
+    text-align: center;
+    color: var(--color);
+    font-family: myfont;
+    position: relative;
+    top: 9%;
+}
+.anibox {
+    width: 5%;
+    height: 5%;
+    border-radius: 35%;
+    padding: 2rem 2rem;
+    background: rgb(9, 136, 158);
+}
+/* section secInp */
+#secInp {
+    width: 100%;
+    min-height: max-content;
+}
+#secInp h1{
+    color: var(--color);
+    font-size: 250%;
+    font-family: myfont;
+    position: relative;
+    left: 5.5%;
+}
+#cotainer{
+    width: 100%;
+    height: 85vh;
+    min-height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-right: 5vw;
+    margin-top: 4vh;
+}
+.divv {
+    width: 30vw;
+    height: 45%;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background: red;
+    animation: raibow 7s linear infinite;
+}
+@keyframes raibow{
+    0%{background: linear-gradient(to bottom right,rgb(11, 207, 142)),rgb(152, 25, 211);}
+    20%{background: linear-gradient(to bottom right,rgb(15, 204, 218),rgb(55, 0, 255));}
+    30%{background: linear-gradient(to bottom right,rgb(13, 107, 194),rgb(24, 148, 111));}
+    40%{background: linear-gradient(to bottom right,rgb(79, 36, 160),rgb(0, 255, 85));}
+    50%{background: linear-gradient(to bottom right,rgb(20, 80, 90),rgb(100, 83, 26));}
+    60%{background: linear-gradient(to bottom right,rgb(105, 45, 15),rgb(255, 0, 106));}
+    70%{background: linear-gradient(to bottom right,rgb(62, 12, 92),rgb(30, 153, 159))}
+    80%{background: linear-gradient(to bottom right,rgb(37, 255, 146),rgb(82, 136, 98));}
+    100%{background: rgb(255, 0, 76);}
+}
+
+.divv label{
+    color: var(--color);
+    font-size: larger;
+}
+.divv >input[type = number]{
+    width: 70%;
+    padding: 0.7rem 1.1rem;
+    border: 3.5px solid rgb(15, 7, 56);
+    border-radius: 1rem;
+}
+.divv >input[type = number]::-webkit-inner-spin-button,
+.divv >input[type = number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+#secInp > input[type = submit] {
+    width: 25%;
+    padding: 0.7rem 1.1rem;
+    border: 3.5px solid rgb(194, 191, 9);
+    border-radius: 1rem;
+    font-size: larger;
+}
+input:focus {
+    background-color: silver;
+}
+#secInp > div:last-child{
+    width: 100%;
+    height: 40vh;
+    
+}
+#result {
+    color: var(--color);
+    font-size: larger;
+}
+#start {
+    width: 17%;
+    height: 10%;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--color);
+    position: relative;
+    background: rgb(6, 6, 80);
+    left: 40%;
+    top: auto;
+}
+/*section loop*/
+#loop {
+    min-height: 30vh;
+    width: 100%;
+
+}
+.contain {
+    display: flex;
+   margin: 50px auto;
+   width: 90%;
+   overflow-x: auto;
+   border-radius: 1rem;
+   position: relative;
+   top: 10%;
+   box-shadow: 0 0 1em rgba(16, 67, 133, 0.822),0 0 1.3em rgba(20, 44, 182, 0.603),0 0 1.5em rgba(12, 112, 206, 0.397), 0 0 0.5rem rgba(255, 255, 255, 0.418);
+}
+.contain::-webkit-scrollbar {
+    display: none;
+}
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 15s linear infinite;
+    padding-right: 1em;
+}
+.cards{
+    flex: 0 0 5em;
+    padding: max-content 7rem;
+    background: transparent;
+    text-align: center;
+    align-content: center;
+    border-radius: 1rem;
+}
+.cards:hover {
+    animation: none;
+    filter: brightness(2);
+}
+.cards img {
+    height: 5.3rem;
+    width: 15em;
+    object-fit: cover;
+    border-radius: 1em;
+}
+@keyframes spin {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
+}
+/*dSec section*/
+.dSec {
+    width: 100%;
+    height: 100vh;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.banner .slider {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1300px);
+    animation: autorun 20s linear infinite;
+}
+@keyframes autorun {
+   from {transform: perspective(1300px) rotateX(-12deg) rotateY(0deg)}
+   to {transform: perspective(1300px) rotateX(-12deg) rotateY(360deg)}
+}
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+    rotateY( calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+    translateZ(550px);
+    z-index: 5;
+}
+.banner .slider .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+.banner h1 {
+    font-family: myfont;
+    color: var(--color);
+    font-size: 7rem;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.3rem;
+    -webkit-text-stroke: 2px black;
+}
