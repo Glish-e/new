@@ -1,0 +1,42 @@
+[3251:3251:0319/133232.987053:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+[3278:3278:0319/133236.788377:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+[3210:3210:0319/133237.292735:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[3210:3210:0319/133237.405109:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[3210:3210:0319/133237.431258:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[3210:3210:0319/133237.460298:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[3210:3210:0319/133242.291328:ERROR:CONSOLE:1] "[web-discovery] ReferenceError: module is not defined", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[3210:3210:0319/134221.122117:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.169754:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.233189:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.284642:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.295728:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.436636:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.487406:ERROR:content/common/zygote/zygote_communication_linux.cc:291] Failed to send GetTerminationStatus message to zygote
+[3210:3210:0319/134221.561316:ERROR:ui/compositor/compositor_animation_observer.cc:65] CompositorAnimationObserver is active for too long (557.801s) location=Button@ui/views/controls/button/button.cc:668
+[3210:3210:0319/134221.798557:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.807857:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.815792:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.825577:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.836089:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.845014:ERROR:content/browser/gpu/gpu_process_host.cc:990] GPU process launch failed: error_code=1002
+[3210:3210:0319/134221.845108:FATAL:content/browser/gpu/gpu_data_manager_impl_private.cc:417] GPU process isn't usable. Goodbye.
+[0319/134221.895809:ERROR:third_party/crashpad/crashpad/snapshot/elf/elf_dynamic_array_reader.h:64] tag not found
+[0319/134221.899441:ERROR:third_party/crashpad/crashpad/snapshot/elf/elf_dynamic_array_reader.h:64] tag not found
+[0319/134221.995552:ERROR:third_party/crashpad/crashpad/util/file/directory_reader_posix.cc:43] opendir /home/glishe/.config/BraveSoftware/Brave-Browser/Crash Reports/attachments/c5555cf5-db57-4504-b7d6-73418e565d70: No such file or directory (2)
+[0319/134229.920881:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/glishe/.config/BraveSoftware/Brave-Browser/Crash Reports/pending/c5555cf5-db57-4504-b7d6-73418e565d70.lock: File exists (17)
+[0319/134229.921080:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/glishe/.config/BraveSoftware/Brave-Browser/Crash Reports/pending/c5555cf5-db57-4504-b7d6-73418e565d70.lock: File exists (17)
+[0319/134230.243570:ERROR:third_party/crashpad/crashpad/util/file/file_io_posix.cc:153] open /home/glishe/.config/BraveSoftware/Brave-Browser/Crash Reports/pending/c5555cf5-db57-4504-b7d6-73418e565d70.lock: File exists (17)
+/usr/bin/brave-browser: line 40:  3210 Trace/breakpoint trap   (core dumped) "$HERE/brave" "$@"
+[0319/134322.078404:ERROR:third_party/crashpad/crashpad/util/net/http_transport_libcurl.cc:472] curl_easy_perform: Timeout was reached (28)
+[4499:4499:0319/134448.703538:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+[4522:4522:0319/134449.836807:ERROR:base/memory/shared_memory_switch.cc:289] Failed global descriptor lookup: 7
+[4457:4457:0319/134451.477211:ERROR:chrome/browser/ui/views/user_education/impl/browser_user_education_interface_impl.cc:154] Attempting to show IPH IPH_DiscardRing before browser initialization complete; IPH will not be shown.
+[4457:4457:0319/134457.113938:ERROR:CONSOLE:1] "[web-discovery] ReferenceError: module is not defined", source: chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/out/brave_extension_background.bundle.js (1)
+[4498:4498:0319/134502.648886:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.674877:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.711211:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.719716:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.724140:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.728896:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+[4498:4498:0319/134502.740879:ERROR:gpu/command_buffer/service/shared_image/shared_image_manager.cc:252] SharedImageManager::ProduceSkia: Trying to Produce a Skia representation from a non-existent mailbox.
+Fontconfig error: Cannot load default config file: File not found

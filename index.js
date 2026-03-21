@@ -7,24 +7,15 @@ const others = document.getElementById("others");
 const hero = document.getElementById("hero");
 const divv = document.getElementById("divv");
 const btn = document.getElementById("start");
-async function multiply() {
-    const number = await phone.value;
-    const valu = Number(number);
-   if(valu){
-   console.log(valu * 2)
-   } else {
-       console.log("entre a number")
-}
-}
+const tex = document.getElementById("text");
+
 btn.addEventListener("click", () => {
-    if (hero.style.background !== "yellow"){
-        hero.style.background = "yellow";
-    }
-     else {
-        hero.style.background = "gray";
-    }
+    const value = Number(work.value)
+    const num = value * 365
+    tex.textContent = `in a year you ll be working ${num} hours`
+    console.log(num)
 });
-const body = document.querySelector("body")
+
 
 gsap.registerPlugin(ScrollTrigger);
 const tl = gsap.timeline({
@@ -32,8 +23,6 @@ const tl = gsap.timeline({
         trigger: "#hero",
         start: "top 5%",
         end: "bottom 150%",
-        markers: true,
-        toggleActions: "restart play reverse play",
         scrub: 15,
     }
 });
@@ -43,37 +32,28 @@ tl.to(".anibox", {
     scale: 2
 });
 
-// Cool horizontal scroll animation for #loop section
-gsap.registerPlugin(ScrollTrigger);
-const horizontalScroll = gsap.to(".group", {
-    x: () => -(document.querySelector(".group").scrollWidth - document.querySelector(".contain").clientWidth),
-    ease: "power1.inOut",
-    scrollTrigger: {
-        trigger: "#loop",
-        start: "top top",
-        end: () => "+=" + document.querySelector(".group").scrollWidth,
-        pin: true,
-        scrub: true,
-        markers: true,
-        anticipatePin: 1
-    }
-});
-const text = document.getElementById("text");
-const btc_url = 'https://api.coindesk.com/v1/bpi/currentprice/BTC.json'
-async function fetcha() {
-    const response = await fetch(btc_url);
-    try {
-        if(response.ok) {
-            const data = await response.json();
-            text.innerText = `Current BTC Price: $${data.bpi.USD.rate}`;
-        } else {
-            throw Error("A problem has been detected")
-        }
-    } catch (error) {
-        console.error(error)
-    }
+    gsap.registerPlugin(ScrollTrigger);
+        const card = document.querySelectorAll(".divv");
+        gsap.utils.toArray(card).forEach(element => {
+            gsap.fromTo(card, {
+                y: 50,
+                autoAlpha: 0,
+                scale: 0.5,
+                duration: 0.7,
+                ease: "power3.out",
+            }, {
+                autoAlpha: 1,
+                scale: 1,
+                scrollTrigger: {
+                    trigger: card,
+                    start: "top center",
+                    end: "bottom center",
+                    scrube: true               }
+            })
+        });
 
-}
+
+
 
 
             

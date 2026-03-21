@@ -97,31 +97,7 @@
     </section>
     <script src="gsap.min.js"></script>
     <script src="ScrollTrigger.min.js"></script>
-    <script>
-        gsap.registerPlugin(ScrollTrigger);
-        const card = document.querySelectorAll(".divv");
-        gsap.utils.toArray(card).forEach(element => {
-            gsap.fromTo(card, {
-                y: 50,
-                autoAlpha: 0,
-                scale: 0.5,
-                duration: 0.7,
-                ease: "power3.out",
-            }, {
-                autoAlpha: 1,
-                scale: 1,
-                scrollTrigger: {
-                    trigger: card,
-                    start: "top center",
-                    end: "bottom center",
-                    scrube: true,
-                    markers: true,
-                    toggleActions: "restart play reverse play"
-                }
-            })
-        });
-    
-    </script>
+   
 </body>
 <script src="index.js"></script>
 </html>
